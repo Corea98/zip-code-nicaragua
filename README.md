@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `Live demo`
+
+Live demo: [Live demo](https://zip-code-nicaragua-ocorea.netlify.app/).
+
 ### `npm start`
 
 Runs the app in the development mode.\

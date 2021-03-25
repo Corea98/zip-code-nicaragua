@@ -14,8 +14,6 @@ function App() {
   const [ selected, setSelected ] = useState(-1)
   const [ showData, setShowData ] = useState(undefined)
 
-  console.log(selected)
-
   // Funciones
   const handleChangeZip = e => {  
     if (e.target.value.length > 5 || isNaN(e.target.value)) {
@@ -89,7 +87,7 @@ function App() {
   }
 
   return (
-    <>
+    <div className='container'>
 
     <div className='search-zip'>
       <h1>Zip code location finder</h1>
@@ -118,7 +116,7 @@ function App() {
       zip={ zip }
       coincidencias={ coincidencias }
     ></ShowZip>
-    </>
+    </div>
   );
 }
 

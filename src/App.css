@@ -1,5 +1,5 @@
 .search-zip {
-  padding: 100px 200px 20px 200px;
+  padding: 100px 20px 20px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,11 +44,11 @@
 
 @media screen and (max-width: 1024px) {
   .search-zip {
-    padding: 100px 100px 20px 100px;
+    padding-top: 80px;
   }
 }
 @media screen and (max-width: 768px) {
   .search-zip {
-    padding: 100px 30px 20px 30px;
+    padding-top: 60px;
   }
 }
