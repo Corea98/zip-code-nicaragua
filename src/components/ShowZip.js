@@ -6,7 +6,7 @@ export default function ShowZip({ data, zip, coincidencias }) {
     if (zip.length < 5 && zip.length > 0 && coincidencias.length === 0) {
         return (
             <div className='container'>
-                <p>No se encontraron coincidencias, prueba con otro código zip!</p>
+                <p>No matches found, try another zip code!</p>
             </div>
         )
     }
@@ -18,7 +18,7 @@ export default function ShowZip({ data, zip, coincidencias }) {
     if (data === null) {
         return (
             <div className='container'>
-                <p>No se encontraron coincidencias, prueba con otro código zip!</p>
+                <p>No matches found, try another zip code!</p>
             </div>
         )
     }
