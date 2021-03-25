@@ -1,0 +1,24 @@
+.container {
+    padding: 0 200px;
+}
+
+.container p {
+    font-weight: 400;
+}
+
+.container span {
+    font-weight: 600;
+    color: var(--CPrincipal);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+      padding: 100px 100px 20px 100px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 100px 30px 20px 30px;
+    }
+  }
